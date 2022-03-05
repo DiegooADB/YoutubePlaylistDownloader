@@ -1,0 +1,1 @@
+This project is used to download playlists and allow users to choose if they want to make 1 archive with all of the videos or just get the separate file 
