@@ -1,0 +1,26 @@
+{
+  "name": "YTDownload",
+  "version": "1.0.0",
+  "description": "This project is used to download playlists and allow users to choose if they want to make 1 archive with all of the videos or just get the separate file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegooADB/YoutubePlaylistDownloader.git"
+  },
+  "keywords": [],
+  "author": "Diego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegooADB/YoutubePlaylistDownloader/issues"
+  },
+  "homepage": "https://github.com/DiegooADB/YoutubePlaylistDownloader#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "fs": "0.0.1-security",
+    "googleapis": "^95.0.0",
+    "ytdl-core": "^4.11.0"
+  }
+}
