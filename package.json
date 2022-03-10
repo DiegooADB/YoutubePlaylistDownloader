@@ -1,7 +1,7 @@
 {
   "name": "YTDownload",
   "version": "1.0.0",
-  "description": "This project is used to download playlists and allow users to choose if they want to make 1 archive with all of the videos or just get the separate file",
+  "description": "This project is used to download each videos from youtube mixes playlist",
   "main": "index.js",
   "scripts": {
     "start": "node src/downloadVideo"
