@@ -1,1 +1,1 @@
-This project is used to download playlists and allow users to choose if they want to make 1 archive with all of the videos or just get the separate file 
+This project allows users to downlaod videos from youtube mixes playlist, and verify if you have the archive with the same title of the video
