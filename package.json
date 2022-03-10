@@ -4,7 +4,7 @@
   "description": "This project is used to download playlists and allow users to choose if they want to make 1 archive with all of the videos or just get the separate file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/downloadVideo"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
     "dotenv": "^16.0.0",
     "fs": "0.0.1-security",
     "googleapis": "^95.0.0",
+    "inquirer": "^8.2.1",
+    "sanitize-filename": "^1.6.3",
     "ytdl-core": "^4.11.0"
   }
 }
