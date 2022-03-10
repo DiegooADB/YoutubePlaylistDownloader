@@ -1,11 +1,11 @@
-require('dotenv').config()
 const { google } = require('googleapis');
 const youtube = google.youtube('v3');
-const KEY = process.env.API_KEY;
+
+const config = require('../config/config.json');
 
 exports.getVideoUrl = async (playlistId, result) => { //playlistId = RDhXl3DAD2kU0, maxResults = 50, 
 const res = await youtube.playlistItems.list({
- key: KEY,
+ key: config.API_KEY,
  part: 'snippet',
  maxResults: result,
  playlistId: playlistId,

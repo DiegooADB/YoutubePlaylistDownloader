@@ -30,7 +30,7 @@ inquirer.prompt(questions).then(answers => {
     return;
   };
 
-  getVideo(answers['playlistId'], answers['maxResults'])
+  getVideo(answers['playlistId'].trim(), answers['maxResults'])
 });
 
 let counter = 0;
